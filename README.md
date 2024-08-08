@@ -22,7 +22,9 @@ Then SAM-2-online can be used in a few lines as follows for image and video and 
 
 ### Camera prediction
 
+```bash
 run ./demo/demo_realsense.py
+```
 
 ## References:
 
