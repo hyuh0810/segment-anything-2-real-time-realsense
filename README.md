@@ -8,6 +8,7 @@ Run Segment Anything Model 2 on a **live video stream using a realsense camera**
 
 ```bash
 pip install -e .
+pip install pyrealsense2
 ```
 ### Download Checkpoint
 
@@ -23,7 +24,8 @@ Then SAM-2-online can be used in a few lines as follows for image and video and 
 ### Camera prediction
 
 ```bash
-python  ./demo/demo_realsense.py
+cd ./demo
+python  ./demo_realsense.py
 ```
 
 ## References:
